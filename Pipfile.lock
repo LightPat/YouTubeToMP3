@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "05f341883d4dcc9cfb11c8c3cf2559b77d843d4ded0afdb102608176a2864f83"
+            "sha256": "d6a9466201febe313f6ecc76ce9455c81a68e2f08351b41dca25aaf5cd0b51cd"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,13 @@
         ]
     },
     "default": {
+        "altgraph": {
+            "hashes": [
+                "sha256:743628f2ac6a7c26f5d9223c91ed8ecbba535f506f4b6f558885a8a56a105857",
+                "sha256:ebf2269361b47d97b3b88e696439f6e4cbc607c17c51feb1754f90fb79839158"
+            ],
+            "version": "==0.17.2"
+        },
         "ffmpeg-python": {
             "hashes": [
                 "sha256:65225db34627c578ef0e11c8b1eb528bb35e024752f6f10b78c011f6f64c4127",
@@ -30,6 +37,36 @@
             ],
             "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.18.2"
+        },
+        "macholib": {
+            "hashes": [
+                "sha256:1542c41da3600509f91c165cb897e7e54c0e74008bd8da5da7ebbee519d593d2",
+                "sha256:885613dd02d3e26dbd2b541eb4cc4ce611b841f827c0958ab98656e478b9e6f6"
+            ],
+            "version": "==1.15.2"
+        },
+        "modulegraph": {
+            "hashes": [
+                "sha256:14c59c10874001aa9c1d527f114870991c0d8dfc6baf6c7e27f885df794a8239",
+                "sha256:7985a8b3d97307b26e1872949973239b273602a041a3e2caedf80bc640909991"
+            ],
+            "version": "==0.19.2"
+        },
+        "py2app": {
+            "hashes": [
+                "sha256:d176fc7fa56586739d2b6ac023e939bd96fcfa3d73c118c9b4ba785d53e2a8bc",
+                "sha256:edbb852509466d34b96b41b1b2d212ad86dfa1bc29c54b3e18e54533e5d92239"
+            ],
+            "index": "pypi",
+            "version": "==0.26.1"
+        },
+        "pysimplegui": {
+            "hashes": [
+                "sha256:4304988e3ab367b921bd581812dbcaf552913a7721cf21a7504f585a32e2c17a",
+                "sha256:531baaf642de670fc59d3975d572ec85f350808de319bd1a8e62040aa5a4791e"
+            ],
+            "index": "pypi",
+            "version": "==4.53.0"
         },
         "pytube": {
             "hashes": [
