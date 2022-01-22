@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d6a9466201febe313f6ecc76ce9455c81a68e2f08351b41dca25aaf5cd0b51cd"
+            "sha256": "87dffa911e2e71dac76041d9e574716498b7af325f441a601a26232f855b6cc5"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -38,43 +38,58 @@
             "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.18.2"
         },
-        "macholib": {
+        "pefile": {
             "hashes": [
-                "sha256:1542c41da3600509f91c165cb897e7e54c0e74008bd8da5da7ebbee519d593d2",
-                "sha256:885613dd02d3e26dbd2b541eb4cc4ce611b841f827c0958ab98656e478b9e6f6"
+                "sha256:344a49e40a94e10849f0fe34dddc80f773a12b40675bf2f7be4b8be578bdd94a"
             ],
-            "version": "==1.15.2"
+            "markers": "sys_platform == 'win32'",
+            "version": "==2021.9.3"
         },
-        "modulegraph": {
+        "pyinstaller": {
             "hashes": [
-                "sha256:14c59c10874001aa9c1d527f114870991c0d8dfc6baf6c7e27f885df794a8239",
-                "sha256:7985a8b3d97307b26e1872949973239b273602a041a3e2caedf80bc640909991"
-            ],
-            "version": "==0.19.2"
-        },
-        "py2app": {
-            "hashes": [
-                "sha256:d176fc7fa56586739d2b6ac023e939bd96fcfa3d73c118c9b4ba785d53e2a8bc",
-                "sha256:edbb852509466d34b96b41b1b2d212ad86dfa1bc29c54b3e18e54533e5d92239"
+                "sha256:03636feec822de1d23d9753054f0b1229fb23d58723ae796f41b1127fc54f572",
+                "sha256:0f488407108dd4e0531576552514889b2d5620367c81a177dfbe1eb628ad7a8c",
+                "sha256:2c7f4810dc5272ec1b388a7f1ff6b56d38653c1b0c9ac2d9dd54fa06b590e372",
+                "sha256:5a130e2cf694975787026db1839b53c833b8d4922d850703c7076a06774cb6af",
+                "sha256:7942ac8043e538422fe9c6733fe201e4d765d31ad13ff40bcc7b9bf4c2d0ad64",
+                "sha256:ba410e9aadae61aa9172d56180ca381b3ad7abd721a31495db21cc82ede4003b",
+                "sha256:c766e1d643f8820fe70d12c3690911bc43556ae97e12885e2925fa43bc1e7649",
+                "sha256:c8d3b4e64b0e6c1c837b5215077675796a7d95679245b40843343d647465fb69",
+                "sha256:fea70754a8cdca04763d0cdbbb9b8b07854355232c8f512bc7211e2c07361c06"
             ],
             "index": "pypi",
-            "version": "==0.26.1"
+            "version": "==4.7"
+        },
+        "pyinstaller-hooks-contrib": {
+            "hashes": [
+                "sha256:60a57e4057fa2183bbaa81f10401a27eb7dd701ef8a11b287bb6345b571f94e7",
+                "sha256:775b52200b39e12c95cc24f809eb050a97110fee819d178ebfde214f0f51e5f4"
+            ],
+            "version": "==2021.4"
         },
         "pysimplegui": {
             "hashes": [
-                "sha256:4304988e3ab367b921bd581812dbcaf552913a7721cf21a7504f585a32e2c17a",
-                "sha256:531baaf642de670fc59d3975d572ec85f350808de319bd1a8e62040aa5a4791e"
+                "sha256:9d40c0a0c2b4c3d2ee935854e48d724f508ae68123f4bac8072612dd9e707dec",
+                "sha256:dac8a7d43c246c68bb3c6cdabb0b0abb369df8a7bf3f246d6144e64b6e9330b4"
             ],
             "index": "pypi",
-            "version": "==4.53.0"
+            "version": "==4.55.1"
         },
         "pytube": {
             "hashes": [
-                "sha256:47643a6ff553cbc4d6be748ff14c9c45f79984e15005adff25d62b18110abe43",
-                "sha256:d4dfea7394d7662edac3831432b349b2afac984e0d0bc4bdb611ec1f3fc16318"
+                "sha256:21d2d151e6525f9f79401ae7a74a7de1e2bb1c00ede5d77c89e22d496389c5f1",
+                "sha256:bf2b350e8e991f82b874928f5f1ba1a733a9848d650b01b08fabdf85eea15356"
             ],
             "index": "pypi",
-            "version": "==11.0.1"
+            "version": "==11.0.2"
+        },
+        "pywin32-ctypes": {
+            "hashes": [
+                "sha256:24ffc3b341d457d48e8922352130cf2644024a4ff09762a2261fd34c36ee5942",
+                "sha256:9dc2d991b3479cc2df15930958b674a48a227d5361d413827a4cfd0b5876fc98"
+            ],
+            "markers": "sys_platform == 'win32'",
+            "version": "==0.2.0"
         }
     },
     "develop": {}

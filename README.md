@@ -1,4 +1,9 @@
 # YouTubeToMP3
+## IMPORTANT ISSUE WITH PYTUBE
+See this stack overflow page to fix an issue with the pytube regex cipher used to filter streams: https://stackoverflow.com/questions/70776558/pytube-exceptions-regexmatcherror-init-could-not-find-match-for-w-w
+
+I made this change when my program stopped working randomly.
+
 ## The Goal
 I'm building a user interface that allows you to supply it a youtube link and it will download the video in the highest audio quality possible (around 124 kpbs).
 

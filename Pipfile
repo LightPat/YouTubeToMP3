@@ -6,8 +6,8 @@ name = "pypi"
 [packages]
 pytube = "*"
 ffmpeg-python = "*"
-py2app = "*"
 pysimplegui = "*"
+pyinstaller = "*"
 
 [dev-packages]
 
